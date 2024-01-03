@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Arima';
+  src: url('../src/assets/fonts/ArimaMadurai-Regular.ttf');
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../src/assets/fonts/Pacifico.ttf');
+}
+@font-face {
+  font-family: 'Gill';
+  src: url('../src/assets/fonts/Gill Sans Medium.otf');
+}
+@font-face {
+  font-family: 'GillLight';
+  src: url('../src/assets/fonts/Gill Sans Light.otf');
+}
+
+
+:root {
+  font-family: 'Arima';
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #003956;  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

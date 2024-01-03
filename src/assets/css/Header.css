@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #003956;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.header img{
+    padding: 0;
+    margin-left: 150px;
+    width: 200px;
+}
+.header-items{
+    display: flex;
+    margin-right: 50px;
+}
+.headerItem{
+    column-width: 1px;
+    background-color: #FF3A49;
+    margin: 10px;
+    padding: 1px 20px 1px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.nosub  {
+    text-decoration: none;
+    color: inherit;
+}
