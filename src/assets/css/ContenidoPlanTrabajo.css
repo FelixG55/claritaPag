@@ -1,0 +1,46 @@
+.plantrabajo{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(251, 247, 239);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemspTrabajo{
+    display: flex;
+}
+.buttons-slice{
+    flex-basis: 100%;
+    margin-left: 28%;
+    margin-right: auto; 
+    background-color: rgb(251, 247, 239);
+    width: auto;
+}
+.pointer{
+    cursor: pointer;
+}
+.content-ptrabajo1{
+    font-family: 'Gill';
+    text-align: left;
+    line-height: 1;
+    font-size: 30px;
+    height: 180px;
+    width: 180px;
+    background-color: #FF3A49;
+    border-radius: 15px;
+    margin: 80px 0 0 70px;
+    background-image: url('/images/recurso1.png');
+    background-repeat: no-repeat; 
+    background-position: 0% 10%;
+}
+
+.content-ptrabajo1 h1{
+    font-family: 'Gill';
+    color: rgb(251, 247, 239);
+    text-align: left;
+    line-height: 1;
+    font-size: 25px;
+    margin-top: 120px;
+    margin-left: 5px;
+}
