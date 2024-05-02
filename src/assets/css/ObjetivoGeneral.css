@@ -4,7 +4,7 @@
     background-color: rgb(229, 219, 203);
     justify-content: space-around;
     align-content: center;
-    height: 500px;
+    padding: 20px 15px 20px 15px ;
 }
 .itemObjGeneral{
     width: 400px;
@@ -46,7 +46,7 @@
     border-radius: 15px;
 }
 .imgObjGeneral #recurso6 {  
-    width: 522px;
+    width: 100%;
     height: 204px;
     object-fit: cover;
     border-radius: 15px;

@@ -28,6 +28,7 @@
     margin:  0 0 0 -200px ;
 }
 .buttonSaberMas{
+    cursor: pointer;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -64,7 +65,6 @@
 position: relative;
 background-image: url("/images/recurso7.png");
 background-position-y: center;
-background-position-y: center;
 background-repeat: no-repeat;
 }
 .img-container::before{
@@ -78,7 +78,63 @@ background-repeat: no-repeat;
     background-color: #FF3A49;
     background-position: center;
 }
-/* .icono-ampliado{
-    cursor: pointer;
-    font-size: 25px;
-} */
+
+@media (max-width: 1050px){
+    .QuienSoy p{
+        margin-left: -200px;
+    }
+}
+
+@media (max-width: 971px){
+    .QuienSoy{
+        justify-content: right;
+        margin-left: 0;
+    }
+    .QuienSoy p{
+        font-size: 10pt;
+
+    }
+}
+@media (max-width: 862px){
+    .img-container{
+        background-position-y: 0%;
+    }
+    .QuienSoy{
+        justify-content: space-between;
+        margin-left: 25%;
+        height: 410px;
+    }
+    .QuienSoy img {
+        height: 400px;
+    }
+}
+@media (max-width: 750px){
+    .QuienSoy{
+        display: block;
+        margin-left: 0;
+        height: 527px;
+    }
+    .name-quiensoy{
+        text-align: center;
+    }
+    .name-quiensoy h1{
+        margin: 0 auto;
+        line-height: 1;
+    }
+    .name-quiensoy h2{
+        margin: 0 auto;
+    }
+    .buttonSaberMas{
+        display: none;
+    }
+    .img-container{
+        margin-left: 15vmin;
+        position: absolute;
+        right: 0;
+    }
+}
+@media (max-width: 475px){
+        .img-container{
+            width: 320px;
+        }
+}

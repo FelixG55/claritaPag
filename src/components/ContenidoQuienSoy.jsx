@@ -18,7 +18,7 @@ export default function ContenidoQuienSoy() {
   return (
     <React.Fragment>
         <div id='QuienSoy' className='QuienSoy'>
-            <div></div>
+            <br></br>
             <div className='name-quiensoy' >
              <h1>Clara Anaya</h1>
              <h2>Pedagoga especializada</h2>

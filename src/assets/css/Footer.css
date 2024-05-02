@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: #003956;
-    height: 500px;
+    padding-bottom: 20px;
 }
 .content-ptrabajo2{
     font-family: 'Gill';
@@ -56,9 +56,72 @@
 .contact-info-write #escribenos{
     text-align: start;
     height: 70px;
+    color: black;
+}
+.contact-info-write #correo{
+    color: black;
 }
 .footer iframe{
     margin-top: 70px;
     height: 400px;
     width: 400px;
 }
+
+.contact-info-write #submit-button{
+    margin-top: 5px;
+    width: fit-content;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px){
+    .contact-info-write input{
+        display: none;
+    }
+    .footer iframe{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .footer{
+        padding-top: 25px;
+        flex-wrap: wrap;
+    }
+    .footer iframe{
+        display: none;
+    }
+    .content-ptrabajo2{
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    .contact-info{
+        width: fit-content;
+        padding: 5px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .contact-info-write{
+        padding: 5px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 607px){
+        .content-ptrabajo2{
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+}
+@media (max-width: 607px){
+    .contact-info {
+        font-size: 13px;
+    }
+}
+
