@@ -1,7 +1,7 @@
 .item-ptrabajo{
     max-width: 250px;
     background-color: rgb(229, 219, 203);
-    margin: 80px 15px 0 0;
+    margin: 80px 15px 0 15px;
     height: 220px;
     border-radius: 15px;
 }
@@ -10,7 +10,7 @@
     background-color: rgb(0, 60, 86);
     padding: 5px;
     border-radius: 15px;
-    margin: 15px 15px 5px 15px ;
+    margin: 15px auto ;
     width: fit-content;    
 }
 .item-ptrabajo p{
@@ -44,7 +44,7 @@
     background-color: #FF3A49;
     padding: 5px;
     border-radius: 15px;
-    margin: 15px 15px 5px 15px ;
+    margin: 15px auto;
     width: fit-content;    
 }
 .item-nosotros p{
@@ -59,6 +59,7 @@
     color: rgb(0, 60, 86);
 }
 .icono-normal{
+    cursor: pointer;
     position: absolute;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -66,10 +67,39 @@
     right: 0;
 }
 .icono-ampliado{
+    cursor: pointer;
     font-size: 25px;
     position: absolute;
     padding-right: 15px;
     padding-bottom: 15px;
     bottom: 0;
     right: 0;
+}
+
+@media (max-width: 1264px){
+    .agrandado{
+        height: max-content;
+    }
+}
+
+@media (max-width: 1140px){
+    .item-ptrabajo{
+        margin-top: 30px;
+    }
+    .item-nosotros{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 952px){
+    .icono-normal{
+        display: none;
+    }
+}
+@media (max-width: 675px) {
+    .item-nosotros{
+       height: fit-content;
+       margin: 0 auto;
+       min-width: 90%;
+    }
+
 }

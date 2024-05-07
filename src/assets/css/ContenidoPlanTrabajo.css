@@ -9,13 +9,12 @@
 
 .itemspTrabajo{
     display: flex;
-}
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
 .buttons-slice{
     flex-basis: 100%;
-    margin-left: 28%;
-    margin-right: auto; 
-    background-color: rgb(251, 247, 239);
-    width: auto;
+    padding-top: 10px;
 }
 .pointer{
     cursor: pointer;
@@ -43,4 +42,16 @@
     font-size: 25px;
     margin-top: 120px;
     margin-left: 5px;
+}
+
+@media (max-width: 1140px){
+    .itemspTrabajo{
+        flex-basis: 100%;
+    }
+    .plantrabajo{
+        padding-bottom: 120px
+    }
+    .content-ptrabajo1{
+        margin: 40px 0 0 0px;
+    }
 }

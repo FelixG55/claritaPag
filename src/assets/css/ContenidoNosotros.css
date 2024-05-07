@@ -11,13 +11,7 @@
     display: flex;
     padding: 0 0 50px 0;
 }
-.buttons-slice{
-    flex-basis: 100%;
-    margin-left: 28%;
-    margin-right: auto; 
-    background-color: rgb(251, 247, 239);
-    width: auto;
-}
+
 .content-nosotros1{
     font-family: 'Gill';
     text-align: left;
@@ -41,4 +35,22 @@
     font-size: 25px;
     margin-top: 120px;
     margin-left: 5px;
+}
+
+@media (max-width: 1140px) {
+    .itemspNosotros{
+        flex-basis: 100%;
+        justify-content: space-around;
+        
+    }
+    .content-nosotros1{
+        margin: 40px 0 0 0px;
+    }
+}
+
+@media (max-width: 675px) {
+    .itemspNosotros{
+       display: block;
+    }
+
 }

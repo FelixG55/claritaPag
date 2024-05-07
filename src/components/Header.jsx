@@ -14,7 +14,9 @@ function Header () {
                 <h5 id="headerItem2" className="headerItem">Nosotros</h5>
                 </Link>
                 <h5 id="headerItem3" className="headerItem">Eventos</h5>
+                <Link smooth to ={'#footer'} className="nosub">
                 <h5 id="headerItem4" className="headerItem">Contáctanos</h5>
+                </Link>
                 </div>
             </div>
         </React.Fragment>
