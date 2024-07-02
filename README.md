@@ -1,7 +1,7 @@
 
 # Clarita Eduación 
 
-Proyecto de proyecto educativo
+Proyecto de pagina educativa
 
 ## Ejecutar localmente
 
